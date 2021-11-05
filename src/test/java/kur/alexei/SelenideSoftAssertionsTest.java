@@ -1,13 +1,10 @@
 package kur.alexei;
 
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.Selenide;
 import kur.alexei.pages.MainPage;
 import kur.alexei.pages.SoftAssertionsPage;
 import kur.alexei.pages.WikiPage;
 import org.junit.jupiter.api.*;
-
-import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 public class SelenideSoftAssertionsTest {
 
