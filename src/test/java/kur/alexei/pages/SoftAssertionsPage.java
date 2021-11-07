@@ -20,7 +20,7 @@ public class SoftAssertionsPage {
     public void shouldBeSoftAssertionsPage() {
 
         assertThat(url()).contains("SoftAssertions");
-        softAssertionsHeader.shouldBe(visible, Duration.ofSeconds(25)).shouldHave(text("SoftAssertions"));
+        softAssertionsHeader.shouldBe(visible, Duration.ofSeconds(35)).shouldHave(text("SoftAssertions"));
     }
 
     public void shouldBeCodeForJunit5() {
