@@ -21,7 +21,7 @@ public class Homework3Test {
    }
 
    @Test
-   void firstTask() {
+   void firstTaskTest() {
       String question = "Есть ли разница между $(\"h1 div\"); и $(\"h1\").$(\"div\");?";
       String answer = "Разница есть и значительная!\n" +
               "$(h1 div) - возвращает элемент h1, внутри которого есть div.\n" +
