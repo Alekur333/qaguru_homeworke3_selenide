@@ -58,7 +58,6 @@ public class Homework3Test {
    @Test
    void drugAndDropTest() {
       drugAndDropPage.drugAndDropAtoB();
-      drugAndDropPage.drugAndDropBtoA();
 
    }
 }
